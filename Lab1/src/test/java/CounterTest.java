@@ -20,7 +20,7 @@ public class CounterTest {
 
     @Test
     public void sameNumbersTest() {
-        assertNotEquals(this.numbers[0], this.numbers[0]);
+        assertSame(this.numbers[0], this.numbers[0]);
     }
 
     @Test
