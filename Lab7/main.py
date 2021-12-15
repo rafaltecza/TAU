@@ -26,10 +26,10 @@ class FakeApiTestCase(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.json(), expected_response)
 
-    def test_get_categories_200(self):
-        api = f"{self.api}/products/categories"
+    def test_get_categories_returns_none(self):
+        api = f"{self.api}/products/9542"
         response = requests.get(api)
-        expected_response = ['electronics', 'jewelery', "men's clothing", "women's clothing"]
+        expected_response = None
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.json(), expected_response)
 
