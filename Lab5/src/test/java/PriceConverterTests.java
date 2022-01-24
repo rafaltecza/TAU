@@ -65,22 +65,24 @@ public class PriceConverterTests {
         assertNotEquals(200,  apartmentPriceConverter.convert(100, ApartmentPriceConverter.MULTIPLER_PLN_EUR));
     }
 
-    @Test
-    public void convertCurrencyModelToJsonAndGsonTest() {
-        assertEquals("{\"price\":50,\"country\":\"PLN\"}", apartmentPriceConverter.getGson(priceModelPLN));
-    }
-
-    @Test
-    public void convertCurrencyModelToOrgJsonTest() {
-        assertEquals("{\"country\":\"GBP\",\"price\":10}", apartmentPriceConverter.getJsonObject(priceModelGBP));
-    }
 
     // Są obrócone względem siebie
     @Test
-    public void compareJsonConvertersTest() {
+    public void testJsonConverters() {
         String gson = apartmentPriceConverter.getGson(priceModelPLN);
         String json = apartmentPriceConverter.getJsonObject(priceModelPLN);
         assertNotEquals(gson, json);
     }
+
+    @Test
+    public void testConvertGson() {
+        assertEquals("{\"price\":50,\"country\":\"PLN\"}", apartmentPriceConverter.getGson(priceModelPLN));
+    }
+
+    @Test
+    public void testConvertJson() {
+        assertEquals("{\"country\":\"GBP\",\"price\":10}", apartmentPriceConverter.getJsonObject(priceModelGBP));
+    }
+
 
 }

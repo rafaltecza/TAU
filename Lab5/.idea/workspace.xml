@@ -34,7 +34,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MockitoTests">
+  <component name="RunManager" selected="JUnit.PriceConverterTests">
     <configuration name="MockitoTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TAU_5" />
       <option name="PACKAGE_NAME" value="" />
@@ -85,8 +85,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MockitoTests" />
         <item itemvalue="JUnit.PriceConverterTests" />
+        <item itemvalue="JUnit.MockitoTests" />
         <item itemvalue="JUnit.PriceConverterTests.compareJsonConvertersTest" />
         <item itemvalue="JUnit.PriceConverterTests.convertCurrencyModelToOrgJsonTest" />
         <item itemvalue="JUnit.PriceConverterTests.convertCurrencyModelToJsonAndGsonTest" />
@@ -103,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643043850204</updated>
-      <workItem from="1643043855478" duration="3298000" />
+      <workItem from="1643043855478" duration="3492000" />
     </task>
     <servers />
   </component>
@@ -123,22 +123,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="756" y="379" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1643044269478" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1643047195221">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1643047405856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1643047195221" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1643047195220">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1643047405856" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1643047405856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1643047195220" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1643047195220">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1643047405856" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1643047405856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1643047195220" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1643047195220">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1643047405856" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1643047405856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1643047195220" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1643047405856" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1643045998605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
